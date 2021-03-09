@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Product from "./Product";
-import Title from "./Title";
+import Product from "../components/Product";
+import Title from "../components/Title";
 import { storeProducts } from "../data";
 import styled from "styled-components";
 import { ProductConsumer } from "../context";

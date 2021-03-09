@@ -6,7 +6,11 @@
   --mainDark: #000;
   --mainYellow: #ffa400;
 }
-
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: "Oswald", sans-serif !important;
   background: var(--mainWhite) !important;
